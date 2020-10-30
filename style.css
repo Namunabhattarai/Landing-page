@@ -1,0 +1,122 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+#container{
+    height:100vh;
+    width:100%;
+    background-color:rgb(3, 3, 75);
+    display:flex;
+    flex-direction:column;
+
+}
+.navbar{
+    height:80px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.logo{
+    height:70px;
+    width:70px;
+    margin-top:5px;
+    margin-left:40px;
+    background-color:red;
+    background-image:url(images/logo.png);
+    background-size:cover;
+}
+.nav{
+    height:80px;
+    width:50%;
+    margin-left:45%;
+    
+}
+.nav ul {
+    list-style-type: none;
+    font-size:1.5em;
+    color:white;
+
+    
+}
+.nav ul li{
+    display:inline-block;
+    padding:10px;
+}
+.img-desc-container{
+    height:380px;
+    margin-top:10px;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+}
+.desc{
+    height:380px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+#img{
+    margin-left:15%;
+}
+  .heading{
+      height:40px;
+      width:80%;
+      text-transform: uppercase;
+      margin-top:50px;
+      font-size:2em;
+      margin-left:10%;
+      color:white;
+      font-weight:bold;
+
+
+    }
+    .sub-heading{
+        height:50px;
+        width:80%;
+        text-transform: uppercase;
+        font-size:3em;
+        margin-left:10%;
+        color:white;
+        font-weight:bold;
+        margin-top:2px;
+        letter-spacing:1px;
+  
+  
+      }
+      .desc-content{
+          height:150px;
+          width:80%;
+          margin-left:10%;
+          margin-top:5px;
+          font-size:1.5em;
+          color:white;
+      }
+      #btn{
+          height:30px;
+          width:150px;
+          margin-left:10%;
+          margin-top:15px;
+          background-color:white;
+          border-radius:10px;
+          font-size:1em;
+      }
+      .img-container{
+          height:150px;
+          margin-top:20px;
+          width:100%;
+          display:flex;
+          flex-direction:row;
+      }
+      #coc{
+          height:150px;
+          margin-left:35%;
+      }
+      #pepsi{
+          height:150px;
+          margin-left:3%;
+      }
+      #sprite{
+        height:150px;
+        margin-left:3%;
+    }
